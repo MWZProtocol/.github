@@ -1,45 +1,22 @@
 # MWZProtocol
 
-Multichain DEX, Warzone Markets, and trading infrastructure powering MemeWarzone.
+MWZProtocol builds the multichain trading, liquidity, routing, and market infrastructure powering MemeWarzone.
 
-## About
+## Public integration resources
 
-MWZProtocol builds:
-- **Warzone Markets**: Advanced trading interface and market discovery
-- **DEX Infrastructure**: Cross-chain routing, liquidity aggregation, and execution engine
-- **Market Data**: Real-time market data and indexing across multiple chains and venues
-- **Trading Layer**: Unified quote generation and settlement
+- **[mwz-sdk](https://github.com/MWZProtocol/mwz-sdk)** — approved public SDK surface, ABI/IDL artifacts, event types, and integration helpers
+- **[mwz-developer-docs](https://github.com/MWZProtocol/mwz-developer-docs)** — public developer documentation and integration examples
 
-## Integration
+## Integration boundary
 
-### For Integrators
+External projects, wallets, aggregators, trading tools, and the MemeWarzone launchpad should integrate through versioned public SDK/API contracts.
 
-- **SDK**: [@mwzprotocol on npm](https://www.npmjs.com/org/mwzprotocol)
-- **Documentation**: [Developer Docs](https://github.com/MWZProtocol/mwz-developer-docs)
-- **Examples**: [Integration Examples](https://github.com/MWZProtocol/mwz-sdk/tree/main/examples)
+Core protocol development, backend/indexer implementation, infrastructure, internal security operations, and private architecture remain private during active development.
 
-### Supported Integrations
+## Status
 
-- MemeWarzone Launchpad
-- External DEX aggregators
-- Wallet integrations
-- Trading bots and infrastructure providers
-- Future protocol partners
-
-## Public Repositories
-
-- **[mwz-sdk](https://github.com/MWZProtocol/mwz-sdk)**: Public integration SDK and types
-- **[mwz-developer-docs](https://github.com/MWZProtocol/mwz-developer-docs)**: Integration documentation
-- **[.github](https://github.com/MWZProtocol/.github)**: Organization profile
-
-## Development
-
-Core development repositories are private during active development. See [CONTRIBUTING.md](./CONTRIBUTING.md) for team member guidelines.
+MWZProtocol is currently pre-release. Do not assume an SDK package, chain integration, API, contract address, or deployment is live until it is explicitly documented in a tagged public release.
 
 ## Security
 
-See [SECURITY.md](./SECURITY.md) for reporting security issues.
-
-## License
-
-MIT
+See [SECURITY.md](../SECURITY.md) for responsible disclosure guidance.
